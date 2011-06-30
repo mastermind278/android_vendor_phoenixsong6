@@ -17,9 +17,7 @@ PRODUCT_MANUFACTURER := Motorola
 
 # RomStats Stuff
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.stats.romname=AOSP-PS6 \
-	ro.stats.romversion=0.6 \
-	ro.modversion=beta-0.6
+	ro.modversion=Zeppelin_v$(PS6_VERSION)-beta
 
 # Zeppelin CopyFiles
 PRODUCT_COPY_FILES += \
