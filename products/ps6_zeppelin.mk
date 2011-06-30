@@ -17,13 +17,13 @@ PRODUCT_MANUFACTURER := Motorola
 
 # RomStats Stuff
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.stats.romname=AOSPXT \
+	ro.stats.romname=AOSP-PS6 \
 	ro.stats.romversion=0.6 \
 	ro.modversion=beta-0.6
 
 # Zeppelin CopyFiles
 PRODUCT_COPY_FILES += \
-	vendor/phoenixsong6/prebuilt/zeppelin/app/RecoveryFlasher.apk:system/app/RecoveryFlasher.apk
+	vendor/phoenixsong6/prebuilt/common/app/Stats.apk:system/app/Stats.apk
 
 # Extra Zeppelin overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/phoenixsong6/overlay/zeppelin
