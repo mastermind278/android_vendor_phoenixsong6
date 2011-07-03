@@ -15,8 +15,9 @@ PS6_VERSION := 0.6
 # DevName for RomStats
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.stats.devname=phoenixsong6 \
-	ro.stats.romname=AOSP-PS6 \
+	ro.stats.romname=ProyectAOSP \
 	ro.stats.romversion=$(PS6_VERSION)
+	ro.rommanager.developerid=PhoenixSong6 & DJGHOSTS3V3N
 
 # Common ROM Packages
 PRODUCT_PACKAGES += \
