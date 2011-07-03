@@ -11,7 +11,7 @@ $(call inherit-product, vendor/phoenixsong6/products/gsm.mk)
 #
 PRODUCT_NAME := ps6_zeppelin
 PRODUCT_BRAND := motorola
-PRODUCT_DEVICE := zepp
+PRODUCT_DEVICE := zeppelin
 PRODUCT_MODEL := MB501
 PRODUCT_MANUFACTURER := Motorola
 
