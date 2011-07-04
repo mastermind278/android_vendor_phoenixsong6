@@ -19,17 +19,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.stats.romversion=$(PS6_VERSION)
 	ro.rommanager.developerid=PhoenixSong6 & DJGHOSTS3V3N
 
-# Common ROM Packages
-PRODUCT_PACKAGES += \
-	FirstBoot \
-	Pacman
-
 # Voip
 PRODUCT_COPY_FILES += \
      frameworks/base/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
 
 # Common Overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/phoenixsong6/overlay/common
+
+# Common Packages
+include vendor/phoenixsong6/products/packages.mk
 
 # T-Mobile Theme Engine
 include vendor/phoenixsong6/products/themes_common.mk
