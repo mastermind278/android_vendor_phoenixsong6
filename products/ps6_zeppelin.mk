@@ -25,5 +25,3 @@ PRODUCT_COPY_FILES += \
 
 # Extra Zeppelin overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/phoenixsong6/overlay/zeppelin
-
-PRODUCT_BUILD_PROP_OVERRIDES += ro.product.device=zepp
