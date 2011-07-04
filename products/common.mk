@@ -10,7 +10,7 @@ KERNEL_MODULES_DIR:=/system/lib/modules
 TINY_TOOLBOX:=true
 
 # ROM Version
-PS6_VERSION := 0.6
+PS6_VERSION := 1.0
 
 # DevName for RomStats
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -21,7 +21,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Common ROM Packages
 PRODUCT_PACKAGES += \
-	FirstBoot
+	FirstBoot \
+	Pacman
 
 # Voip
 PRODUCT_COPY_FILES += \
