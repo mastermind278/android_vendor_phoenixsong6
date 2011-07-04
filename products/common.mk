@@ -10,14 +10,14 @@ KERNEL_MODULES_DIR:=/system/lib/modules
 TINY_TOOLBOX:=true
 
 # ROM Version
-PS6_VERSION := 1.0
+PS6_VERSION := 1.0.1
 
 # DevName for RomStats
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.stats.devname=phoenixsong6 \
 	ro.stats.romname=ProyectAOSP \
-	ro.stats.romversion=$(PS6_VERSION)
-	ro.rommanager.developerid=PhoenixSong6 & DJGHOSTS3V3N
+	ro.stats.romversion=$(PS6_VERSION) \
+	ro.rommanager.developerid=Phoenixsong6 & DJGHOSTS3V3N
 
 # Voip
 PRODUCT_COPY_FILES += \
