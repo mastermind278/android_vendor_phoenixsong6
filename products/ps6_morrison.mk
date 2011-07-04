@@ -19,9 +19,5 @@ PRODUCT_MANUFACTURER := Motorola
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.modversion=Morrison_v$(PS6_VERSION)-beta
 
-# Morrison CopyFiles
-PRODUCT_COPY_FILES += \
-	vendor/phoenixsong6/prebuilt/common/app/Stats.apk:system/app/Stats.apk
-
 # Extra Morrison overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/phoenixsong6/overlay/morrison
