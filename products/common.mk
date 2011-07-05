@@ -17,7 +17,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.stats.devname=phoenixsong6 \
 	ro.stats.romname=ProyectAOSP \
 	ro.stats.romversion=$(PS6_VERSION) \
-	ro.rommanager.developerid=Phoenixsong6 & DJGHOSTS3V3N
+	ro.rommanager.developerid=Phoenixsong6&DJGHOSTS3V3N
 
 # Voip
 PRODUCT_COPY_FILES += \
