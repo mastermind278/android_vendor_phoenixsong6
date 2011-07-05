@@ -21,3 +21,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Extra Zeppelin overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/phoenixsong6/overlay/zeppelin
+
+# Post Shell Commands
+$(shell sed -i '19s/ro.product.device=zeppelin/ro.product.device=zepp/' out/target/product/zeppelin/system/build.prop)
