@@ -3,4 +3,5 @@ PRODUCT_PACKAGES += \
 	FirstBoot \
 	Pacman \
 	DSPManager \
-	FileManager
+	FileManager \
+	FM
