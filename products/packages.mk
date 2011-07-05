@@ -2,6 +2,8 @@
 PRODUCT_PACKAGES += \
 	FirstBoot \
 	Pacman \
-	DSPManager \
 	FileManager \
-	FM
+	CMScreenshot
+	
+#	DSPManager \
+#	FM
