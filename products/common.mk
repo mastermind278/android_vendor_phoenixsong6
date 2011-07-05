@@ -35,5 +35,6 @@ include vendor/phoenixsong6/products/themes_common.mk
 # ROM Copyfiles
 PRODUCT_COPY_FILES += \
 	vendor/phoenixsong6/prebuilt/common/bin/verify_cache_partition_size.sh:system/bin/verify_cache_partition_size.sh \
+	vendor/phoenixsong6/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
 	vendor/phoenixsong6/prebuilt/common/etc/hosts:system/etc/hosts\
 	vendor/phoenixsong6/prebuilt/common/etc/resolv.conf:system/etc/resolv.conf
