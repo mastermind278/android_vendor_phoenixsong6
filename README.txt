@@ -43,4 +43,4 @@ Nightly #2:
 -ROM doesn't need SIM Card to work.
 -Testing to add 10 steps in volume, I think you guys now have 10 steps in Media Volume
 -----
--No livewallpaper fix yet.. ;(
+-No livewallpaper fix yet... ;(
